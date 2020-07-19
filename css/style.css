@@ -1,0 +1,100 @@
+/* main */
+/* hero */
+.hero {
+  background: #757575;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--secondary-text-color);
+}
+.button {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: var(--primary-bg-color);
+  background-color: var(--accent-color);
+}
+.button:hover {
+  color: var(--accent-color);
+  background-color: var(--accent-bg-color);
+}
+/* feature */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.feature-list .title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+/* work */
+.work-list .title {
+  font-weight: 700;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+  color: var(--primary-text-color);
+}
+/* Изменить потом цвет h3 на белый */
+/* team */
+.team {
+  background-color: var(--accent-bg-color);
+}
+.team-list .title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+}
+.team-list .text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--text-color);
+}
+.social-media-list .link {
+  color: var(--text-color);
+}
+.social-media-list .link:hover {
+  color: var(--accent-color);
+}
+/* clients */
+
+/* portfolio */
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  color: var(--primary-text-color);
+  background-color: var(--accent-bg-color);
+}
+.btn:hover,
+.btn:focus {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+}
+.btn.current {
+  color: var(--accent-color);
+}
+.portfolio-list .title {
+  color: var(--primary-text-color);
+}
+.portfolio-list .text {
+  color: var(--text-color);
+}
